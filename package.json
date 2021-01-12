@@ -4,7 +4,11 @@
   "description": "Quote service to scrape mock website",
   "main": "src/app.js",
   "directories": {
-    "test": "test/candidate.test.js"
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.sr.ht:~girishm/quote-service"
   },
   "scripts": {
     "test": "mocha",
