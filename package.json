@@ -1,0 +1,24 @@
+{
+  "name": "quote-service",
+  "version": "1.0.0",
+  "description": "Quote service to scrape mock website",
+  "main": "src/app.js",
+  "directories": {
+    "test": "test/candidate.test.js"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node src/app.js"
+  },
+  "author": "Girish M",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "jsdom": "^16.4.0",
+    "mocha": "^8.2.1"
+  }
+}
